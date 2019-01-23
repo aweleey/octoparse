@@ -1,8 +1,8 @@
 {
-  "name": "octoparse",
-  "version": "0.3.2",
+  "name": "octoparse-nanachi",
+  "version": "0.0.1",
   "description": "octoParse-小程序富文本解析自定义组件",
-  "homepage": "https://github.com/kaola-fed/octoparse",
+  "homepage": "https://github.com/aweleey/octoparse",
   "files": [
     "lib",
     "index.js"
@@ -10,9 +10,9 @@
   "author": "kaola-fed",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kaola-fed/octoparse.git"
+    "url": "https://github.com/aweleey/octoparse.git"
   },
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "module": "src/index.js",
   "scripts": {
     "tasks": "gulp --tasks",
@@ -38,7 +38,5 @@
     "webpack-cli": "^3.1.2",
     "babel-plugin-add-module-exports": "^1.0.0"
   },
-  "dependencies": {
-   
-  }
+  "dependencies": {}
 }
