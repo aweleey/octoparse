@@ -1,12 +1,16 @@
 {
-  "name": "octoparse-nanachi",
-  "version": "0.0.2",
+  "name": "octoparse",
+  "version": "0.0.3",
   "description": "octoParse-小程序富文本解析自定义组件",
   "homepage": "https://github.com/aweleey/octoparse",
+  "files": [
+    "lib",
+    "index.js"
+  ],
   "author": "kaola-fed",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aweleey/octoparse.git"
+    "url": "https://github.com/kaola-fed/octoparse.git"
   },
   "main": "lib/index.js",
   "module": "src/index.js",
