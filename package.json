@@ -1,24 +1,20 @@
 {
   "name": "octoparse-nanachi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "octoParse-小程序富文本解析自定义组件",
   "homepage": "https://github.com/aweleey/octoparse",
-  "files": [
-    "lib",
-    "index.js"
-  ],
   "author": "kaola-fed",
   "repository": {
     "type": "git",
     "url": "https://github.com/aweleey/octoparse.git"
   },
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "module": "src/index.js",
   "scripts": {
     "tasks": "gulp --tasks",
     "dev": "gulp dev",
     "test": "jest",
-    "build": "babel src --out-dir lib --plugins=babel-plugin-add-module-exports && gulp copyTemplate"
+    "build": "babel src --out-dir lib && gulp copyTemplate"
   },
   "keywords": [
     "html",
